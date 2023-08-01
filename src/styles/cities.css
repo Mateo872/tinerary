@@ -1,0 +1,296 @@
+:root {
+    --color-primary: #232229;
+    --color-secondary: #fff;
+}
+
+.section_cities {
+    margin-top: 4rem;
+}
+
+.container_input {
+    margin: .8rem auto 0;
+    width: 15rem;
+    background-color: var(--color-secondary);
+    border-radius: .3rem;
+    position: relative;
+    border: 1px solid var(--color-primary);
+}
+
+article .container_input input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 0;
+    outline: none;
+    font-size: 0.7rem;
+    background: transparent;
+}
+
+.icon_search {
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 100%;
+    font-size: 0.8rem;
+    color: var(--color-primary);
+    position: absolute;
+    right: 0.2rem;
+    margin-top: 0.03rem;
+}
+
+
+.title {
+    font-size: 2rem;
+}
+
+.slide {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.slide img {
+    width: 100%;
+    height: 10rem;
+}
+
+.swiper-button-prev {
+    display: none;
+}
+
+.swiper-button-next {
+    display: none;
+}
+
+.container_city {
+    width: 80%;
+    margin: 0 auto;
+    gap: 3rem;
+}
+
+.city {
+    width: 15rem;
+    height: 12rem;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+
+.point {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.city h4,
+.city p {
+    color: #fff;
+}
+
+.city_detail-container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.city_detail-container h1 {
+    margin: 1rem 0 0;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.city_detail-container h4 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.city_detail-container img {
+    width: 12rem;
+    height: 15rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.city_detail-container span {
+    font-weight: bold;
+}
+
+.city_detail-container p {
+    margin: 1rem 0;
+    text-align: left;
+    font-size: 1rem;
+    word-spacing: 0.15rem;
+    line-height: 1.5rem;
+}
+
+.arrow_container {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid #000;
+    background-color: #fff;
+    position: fixed;
+    cursor: pointer;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: 100%;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+div a .star {
+    left: 12rem;
+    top: .5rem;
+    z-index: 10;
+}
+
+.container_other {
+    opacity: 1;
+}
+
+
+@media (min-width: 768px) {
+    .slide {
+        width: 80%;
+    }
+
+    .slide img {
+        width: 100%;
+        height: 14rem;
+        display: inline-block;
+    }
+
+    .swiper-button-prev {
+        display: block;
+        margin-top: -3.4rem;
+    }
+
+    .swiper-button-next {
+        display: block;
+        margin-top: -3.4rem;
+    }
+
+    .city {
+        width: 17rem;
+    }
+
+    .city_detail-container img {
+        height: 25rem;
+    }
+
+    div .container_input {
+        margin-top: 1.5rem;
+        width: 35.5%;
+        margin-left: auto;
+        margin-right: 4.8rem;
+    }
+
+    div .container_input input {
+        width: 100%;
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .icon_search {
+        width: 1.7rem;
+        height: 1.7rem;
+        border-radius: 100%;
+        font-size: 0.9rem;
+        color: var(--color-primary);
+        position: absolute;
+        right: 0.2rem;
+        margin-top: 0.03rem;
+    }
+
+    div a .star {
+        top: 0;
+    }
+}
+
+@media (min-width: 988px) {
+    .slide img {
+        height: 18rem;
+    }
+
+    .container_city {
+        width: 90%;
+        gap: 6rem;
+    }
+
+    .city {
+        width: 21rem;
+        height: 13rem;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .city:hover {
+        background-size: 120%;
+        transition: .3s;
+    }
+
+    .city_detail-container h1 {
+        font-size: 2rem;
+    }
+
+    .city_detail-container h4 {
+        font-size: 1.6rem;
+    }
+
+    .city_detail-container p {
+        font-size: 1.3rem;
+    }
+
+    .city_detail-container img {
+        height: 34rem;
+    }
+
+    section article .container_input {
+        margin-top: 2.5rem;
+        width: 24.6%;
+        padding: 0.1rem;
+        font-size: 0.8rem;
+        margin-right: 4.3rem;
+    }
+
+    .icon_search {
+        width: 1.3rem;
+        height: 1.3rem;
+        font-size: 0.9rem;
+        right: .6rem;
+    }
+
+    div a .star {
+        left: 16.5rem;
+        top: .5rem;
+    }
+
+    section article .container_input input {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+        outline: none;
+        border: 0;
+    }
+
+    section article .container_input input:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    .container_other {
+        width: 100%;
+        opacity: 0;
+        transform: translateY(100%);
+        transition: opacity 0.3s, transform 0.3s;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0.6rem;
+    }
+
+    .city:hover .container_other {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+
+}

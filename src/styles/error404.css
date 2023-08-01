@@ -1,0 +1,9 @@
+.pacman_container .pacman {
+    margin-top: 3rem;
+}
+
+.pacman_text {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,59 @@
+  .title_tineraries {
+    margin-top: 3rem;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    padding: 0.5%;
+    padding-bottom: 2%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  }
+
+
+  @media(min-width:767px) {
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+    }
+
+    .swiper .swiper-slide img {
+      width: 100%;
+      height: 18rem;
+      object-fit: cover;
+    }
+
+    .swiper .slide {
+      background-color: transparent;
+    }
+
+    .swiper .slide p {
+      margin-bottom: 0;
+    }
+  }

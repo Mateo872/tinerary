@@ -1,0 +1,146 @@
+.title_tinerary {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+.itinerary_image {
+    height: 2rem;
+    width: 2rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.container_itinerary {
+    margin: 1rem auto;
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: .3rem;
+}
+
+.containerr {
+    animation: itinerary .5s ease;
+}
+
+@keyframes itinerary {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container_profile {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 0.4rem;
+}
+
+.title_collaborator {
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.title_time {
+    font-size: 0.6rem;
+    opacity: .7;
+}
+
+.container_images {
+    overflow: hidden;
+}
+
+.container_images .image {
+    height: 8rem;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.container_charac h4 {
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.container_charac .charac_language {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.container_charac span {
+    margin-top: 0.4rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container_things {
+    width: 100%;
+    text-align: left;
+}
+
+.tinerary_desc {
+    font-size: 0.8rem;
+}
+
+@media (min-width:767px) {
+    .itinerary_image {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .container_profile h5 {
+        font-size: 1rem;
+    }
+
+    .container_profile p {
+        font-size: .8rem;
+    }
+
+    .container_itinerary {
+        width: 55%;
+        margin: 0 0;
+    }
+
+    .container_images .image {
+        height: 14rem;
+    }
+
+    .container_things {
+        width: 50%;
+    }
+
+
+    .tinerary_desc {
+        width: 100%;
+    }
+}
+
+@media (min-width:988px) {
+
+    .container_itinerary {
+        width: 55%;
+    }
+
+    .container_things {
+        width: 35.8%;
+    }
+
+    .container_images .image {
+        height: 16rem;
+    }
+
+    .tinerary_desc {
+        width: 100%;
+        font-size: .8rem;
+    }
+}
